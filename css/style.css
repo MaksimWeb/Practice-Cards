@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Butler';
+    src: url('../fonts/Butler.woff2') format('woff2'),
+    url('../fonts/Butler.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('../fonts/Butler-Medium.woff2') format('woff2'),
+    url('../fonts/Butler-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #e3e3e7;
+}
+
+.card__container {
+    display: flex;
+    max-width: 1200px;
+    background: #fff;
+    margin: 50% auto auto auto;
+    transform: translateY(-50%);
+    filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.7));
+}
+
+.card__left {
+    padding: 131px 94px 130px 102px;
+}
+
+.card__right {
+    background: url("../img/card1-img.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.card__header,
+.card__text,
+.card__link {
+    font-family: 'Butler', 'sans-serif';
+    font-weight: 400;
+    text-align: center;
+}
+
+.card__header {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 58px;
+}
+
+.card__header span {
+    font-size: 100px;
+    color: #000;
+}
+
+.card__text {
+    font-size: 30px;
+    color: #f36f4a;
+    margin-bottom: 66px;
+}
+
+.card__text span {
+    display: block;
+    text-align: center;
+}
+
+.card__link {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 35px;
+    padding: 26px 83px 26px 106px;
+}
