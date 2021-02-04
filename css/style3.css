@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    background: #e3e3e7;
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 50% auto auto auto;
+    transform: translateY(-50%);
+    filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.2));
+}
+
+.card__item {
+    min-width: 600px;
+    max-height: 430px;
+}
+
+.card-2__header,
+.card-3__header {
+    font-size: 30px;
+    font-weight: 300;
+    color: #626262;
+    text-align: center;
+}
+
+.card-2__header {
+    margin-bottom: 39px;
+}
+
+.card-3__header {
+    margin-bottom: 49px;
+}
+
+.card-2__header span,
+.card-3__header span {
+    display: block;
+    text-align: center;
+}
+
+.card-1 {
+    background: url("../img/card1.jpg.jpg") no-repeat;
+    background-size: cover;
+    width: 600px;
+}
+
+.card-4 {
+    background: url("../img/card4.jpg.jpg") no-repeat;
+    background-size: cover;
+    width: 600px;
+}
+
+.card__link {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: #e27c2a;
+    border: 1px solid #e27c2a;
+    border-radius: 4px;
+    padding: 13px 29px 16px 35px;
+    text-decoration: none;
+}
+
+.card__item:nth-child(2),
+.card__item:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.card__item:nth-child(2) {
+    padding: 144px 157px 120px 151px;
+}
+
+.card__item:nth-child(3) {
+    padding: 133px 191px 130px 190px;
+}
