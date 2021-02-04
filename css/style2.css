@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background: #6d96bc;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    background: url('../img/card2-img.png') no-repeat;
+    background-size: contain;
+    margin: 50% auto auto auto;
+    transform: translateY(-50%);
+    padding: 281px 201px 76px 203px;
+    filter: drop-shadow(0px 30px 20px #2c3c5e);
+}
+
+.card__header,
+.card__header span {
+    color: #fff;
+    text-align: center;
+}
+
+.card__header {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.card__header span {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.card__link {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    background: #ba2042;
+    border: 1px solid #ba2042;
+    border-radius: 35px;
+    padding: 25px 62px 26px 62px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.indicator:not(:last-child) {
+    margin-right: 26px;
+}
