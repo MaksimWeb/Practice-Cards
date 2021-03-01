@@ -12,16 +12,22 @@ body {
 }
 
 .card__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     max-width: 1200px;
     background: url('../img/card2-img.png') no-repeat;
     background-size: contain;
     margin: 50% auto auto auto;
     transform: translateY(-50%);
-    padding: 281px 201px 76px 203px;
+    padding: 282px 201px 76px 203px;
     filter: drop-shadow(0px 30px 20px #2c3c5e);
+}
+
+.card__content {
+    display: flex;
+    position: relative;
+    top: -7px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card__header,
@@ -40,6 +46,7 @@ body {
     display: block;
     font-size: 30px;
     font-weight: 300;
+    margin-bottom: 6px;
 }
 
 .card__link {
@@ -50,11 +57,17 @@ body {
     background: #ba2042;
     border: 1px solid #ba2042;
     border-radius: 35px;
-    padding: 25px 62px 26px 62px;
+    padding: 20px 57px 24px 59px;
     text-align: center;
     margin-bottom: 90px;
+    transform: translate(-2px, -4px);
+    word-spacing: 5px;
+}
+
+.card__pagination {
+    transform: translateY(-4px);
 }
 
 .indicator:not(:last-child) {
-    margin-right: 26px;
+    margin-right: 22px;
 }

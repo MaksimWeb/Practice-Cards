@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 106px 84px 129px 102px;
+    padding: 106px 84px 129px 100px;
 }
 
 .card__right {
@@ -73,6 +73,7 @@ body {
     font-size: 30px;
     color: #f36f4a;
     margin-bottom: 65px;
+    word-spacing: -2px;
     letter-spacing: 2px;
 }
 
@@ -87,5 +88,8 @@ body {
     text-decoration: none;
     border: 1px solid #000;
     border-radius: 35px;
-    padding: 20px 101px 19px 102px;
+    padding: 19px 82px 19px 105px;
+    max-width: 340px;
+    letter-spacing: 1px;
+    margin-left: -15px;
 }
