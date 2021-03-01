@@ -21,13 +21,13 @@ body {
 }
 
 .card__item {
-    min-width: 600px;
+    max-width: 600px;
     max-height: 430px;
 }
 
 .card-2__header,
 .card-3__header {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     color: #626262;
     text-align: center;
@@ -35,16 +35,26 @@ body {
 
 .card-2__header {
     margin-bottom: 39px;
+    word-spacing: 3px;
+    letter-spacing: -1px;
 }
 
 .card-3__header {
+    min-width: 250px;
     margin-bottom: 49px;
+    text-align: start;
+}
+
+.card-3__header span {
+    letter-spacing: -1px;
+    margin-left: -28px;
 }
 
 .card-2__header span,
 .card-3__header span {
     display: block;
     text-align: center;
+    margin-top: -7px;
 }
 
 .card-1 {
@@ -66,7 +76,7 @@ body {
     background: #e27c2a;
     border: 1px solid #e27c2a;
     border-radius: 4px;
-    padding: 13px 29px 16px 35px;
+    padding: 5px 25px 11px 38px;
     text-decoration: none;
 }
 
@@ -79,9 +89,16 @@ body {
 }
 
 .card__item:nth-child(2) {
-    padding: 144px 157px 120px 151px;
+    padding: 130px 153px 120px 147px;
 }
 
 .card__item:nth-child(3) {
-    padding: 133px 191px 130px 190px;
+    word-spacing: -4px;
+    padding: 120px 176px 130px 198px;
+}
+
+.card__item:nth-child(3) .card__link {
+    transform: translate(-10px, -11px);
+    word-spacing: 1px;
+    padding: 5px 31px 11px 36px;
 }
